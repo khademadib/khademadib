@@ -1,6 +1,10 @@
 <div align="center">
 
-<img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive — a dark subway-window interface with constellations" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/orv-header.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/orv-header-light.svg" />
+  <img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive — a subway-window interface with constellations" />
+</picture>
 
 <br/>
 
