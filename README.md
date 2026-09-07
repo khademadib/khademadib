@@ -1,75 +1,138 @@
 <div align="center">
 
-<img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive banner" />
+<img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive — a dark subway-window interface with constellations" />
 
-# 김독자 · KDJ
+<br/>
 
-**student developer · reader · builder**
+# KDJ
 
-<sub>quiet interfaces, useful ideas, and one scenario at a time.</sub>
+`frontend learner` · `interface builder` · `reader`
 
-<br/><br/>
+<sub>turning small ideas into clean, intentional web experiences.</sub>
+
+<br/>
 
 <img src="https://img.shields.io/badge/HTML-0b0f18?style=flat-square&logo=html5&logoColor=e8edf7" alt="HTML" />
-<img src="https://img.shields.io/badge/CSS-0b0f18?style=flat-square&logo=css&logoColor=e8edf7" alt="CSS" />
+<img src="https://img.shields.io/badge/CSS-0b0f18?style=flat-square&logo=css3&logoColor=e8edf7" alt="CSS" />
 <img src="https://img.shields.io/badge/JavaScript-0b0f18?style=flat-square&logo=javascript&logoColor=e8edf7" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Git-0b0f18?style=flat-square&logo=git&logoColor=e8edf7" alt="Git" />
+<img src="https://img.shields.io/badge/GitHub-0b0f18?style=flat-square&logo=github&logoColor=e8edf7" alt="GitHub" />
 <img src="https://img.shields.io/badge/Vercel-0b0f18?style=flat-square&logo=vercel&logoColor=e8edf7" alt="Vercel" />
 
 </div>
 
----
+<br/>
 
-### `> reader_profile`
+### `// reader`
 
 ```text
-NAME        KDJ
-ROLE        student developer
+IDENTITY    KDJ
+MODE        observe → understand → build → iterate
 FOCUS       frontend · interface design · useful web experiences
-STATUS      learning / building / iterating
-LOCATION    Toronto, Canada
+STATUS      learning in public
 ```
 
-I like turning ideas into **clean, intentional web experiences**. Right now I’m building my fundamentals in frontend development and learning how good code, thoughtful design, and small details come together.
+I learn by **building things**. I care about interfaces that feel deliberate: clear hierarchy, responsive layouts, useful interactions, and details that make a project feel finished instead of merely functional.
 
-The profile theme is inspired by **Omniscient Reader's Viewpoint / Kim Dokja**: reader, constellations, subway windows, scenarios, and the feeling of quietly observing a much larger story.
+I’m still early in the story, which is exactly why the archive stays honest: no inflated skill list, no fake mastery, no noise for the sake of looking busy.
 
----
+<br/>
 
-### `> current_scenario`
+<img src="./assets/system-panel.svg" width="100%" alt="Current scenario: JavaScript fundamentals, responsive interfaces, Git, deployment and shipping" />
 
-```text
-[ 01 ] strengthen JavaScript fundamentals
-[ 02 ] build better responsive interfaces
-[ 03 ] understand Git and deployment properly
-[ 04 ] turn small ideas into finished projects
-```
+<br/>
 
-No fake mastery. No giant wall of technologies. Just the things I’m actually learning and using.
-
----
-
-### `> principles`
+### `// stack`
 
 <table>
 <tr>
-<td width="33%" align="center"><b>clean over clutter</b><br/><sub>Every element should earn its place.</sub></td>
-<td width="33%" align="center"><b>build to learn</b><br/><sub>Finished work teaches more than endless planning.</sub></td>
-<td width="33%" align="center"><b>details matter</b><br/><sub>Small interactions shape the whole experience.</sub></td>
+<td width="33%" valign="top">
+
+**Structure**
+
+`HTML`  
+semantic pages · accessible foundations
+
+</td>
+<td width="33%" valign="top">
+
+**Interface**
+
+`CSS`  
+layout · responsiveness · visual systems
+
+</td>
+<td width="33%" valign="top">
+
+**Behaviour**
+
+`JavaScript`  
+interaction · state · browser logic
+
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
+
+**Versioning**
+
+`Git` · `GitHub`  
+change deliberately · keep history useful
+
+</td>
+<td width="33%" valign="top">
+
+**Shipping**
+
+`Vercel`  
+turn local work into something people can visit
+
+</td>
+<td width="33%" valign="top">
+
+**Direction**
+
+`Next.js`  
+next stop after the fundamentals are strong
+
+</td>
 </tr>
 </table>
 
----
+<br/>
 
-### `> archive`
+### `// protocol`
+
+<table>
+<tr>
+<td width="33%" align="center"><b>01 · clarity</b><br/><sub>Every element should have a reason to exist.</sub></td>
+<td width="33%" align="center"><b>02 · curiosity</b><br/><sub>Understand the system instead of memorizing the surface.</sub></td>
+<td width="33%" align="center"><b>03 · completion</b><br/><sub>A finished small project beats an abandoned perfect idea.</sub></td>
+</tr>
+</table>
+
+<br/>
+
+### `// constellation_trail`
+
+<sub>Every contribution leaves a trace.</sub>
+
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khademadib/khademadib/output/contribution-grid-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/khademadib/khademadib/output/contribution-grid.svg" />
+  <img width="100%" alt="KDJ contribution constellation trail" src="https://raw.githubusercontent.com/khademadib/khademadib/output/contribution-grid-dark.svg" />
+</picture>
+
+<br/>
+
+### `// archive_note`
 
 ```text
-A reader doesn't need to be the protagonist.
-He just needs to keep turning the page.
+Read carefully.
+Build deliberately.
+Leave the next page better than the last.
 ```
 
-<div align="center">
-
-<sub>◦ · ✦ · ◦ &nbsp;&nbsp; the reader's archive &nbsp;&nbsp; ◦ · ✦ · ◦</sub>
-
-</div>
+<img src="./assets/archive-footer.svg" width="100%" alt="End of current scenario — archive remains open" />
