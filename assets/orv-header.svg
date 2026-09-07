@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">KDJ reader archive banner</title>
+  <desc id="desc">A dark subway-window inspired banner with stars, constellations, and a minimal reader motif.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.52" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#8ca7d7" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#8ca7d7" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+
+  <!-- subway frame -->
+  <path d="M80 46 H1120 Q1140 46 1140 66 V294 Q1140 314 1120 314 H80 Q60 314 60 294 V66 Q60 46 80 46Z" fill="none" stroke="#53627f" stroke-width="2" opacity="0.55"/>
+  <path d="M102 74 H1098 Q1112 74 1112 88 V272 Q1112 286 1098 286 H102 Q88 286 88 272 V88 Q88 74 102 74Z" fill="none" stroke="#24324a" stroke-width="2"/>
+  <line x1="600" y1="75" x2="600" y2="286" stroke="#28364f" stroke-width="2" opacity="0.75"/>
+
+  <!-- stars -->
+  <g fill="#dbe7ff" opacity="0.85">
+    <circle cx="168" cy="112" r="2.1"/><circle cx="219" cy="155" r="1.3"/><circle cx="276" cy="101" r="1.8"/>
+    <circle cx="326" cy="176" r="1.2"/><circle cx="390" cy="126" r="2"/><circle cx="458" cy="95" r="1.2"/>
+    <circle cx="745" cy="110" r="1.7"/><circle cx="806" cy="153" r="1.2"/><circle cx="865" cy="98" r="2.1"/>
+    <circle cx="923" cy="184" r="1.2"/><circle cx="986" cy="127" r="1.8"/><circle cx="1039" cy="91" r="1.2"/>
+    <circle cx="150" cy="236" r="1.3"/><circle cx="273" cy="247" r="1.8"/><circle cx="440" cy="230" r="1.2"/>
+    <circle cx="758" cy="237" r="1.2"/><circle cx="903" cy="246" r="1.8"/><circle cx="1045" cy="221" r="1.2"/>
+  </g>
+
+  <!-- constellation lines -->
+  <g stroke="#8298c0" stroke-width="1" opacity="0.28" fill="none">
+    <path d="M168 112 L219 155 L276 101 L326 176 L390 126"/>
+    <path d="M806 153 L865 98 L923 184 L986 127 L1039 91"/>
+  </g>
+
+  <!-- central reader glyph -->
+  <g transform="translate(600 113)" stroke="#e7edf9" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
+    <path d="M-44 44 Q-19 34 0 51 Q19 34 44 44 V103 Q20 93 0 108 Q-20 93 -44 103 Z" stroke-width="2.2" opacity="0.92"/>
+    <path d="M0 51 V108" stroke-width="1.7" opacity="0.8"/>
+    <path d="M-31 56 Q-15 51 -6 58" stroke-width="1.2" opacity="0.45"/>
+    <path d="M31 56 Q15 51 6 58" stroke-width="1.2" opacity="0.45"/>
+  </g>
+
+  <!-- title -->
+  <text x="600" y="104" text-anchor="middle" fill="#f4f7fb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="700" letter-spacing="8">KDJ</text>
+  <text x="600" y="254" text-anchor="middle" fill="#b7c3d8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="4">READER · OBSERVER · BUILDER</text>
+  <text x="600" y="278" text-anchor="middle" fill="#65728a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3">THE READER'S ARCHIVE</text>
+
+  <!-- tiny system marks -->
+  <g fill="#6d7e9d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" opacity="0.65">
+    <text x="108" y="99">SCENARIO 01</text>
+    <text x="973" y="267">김독자</text>
+  </g>
+</svg>
