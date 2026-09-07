@@ -27,11 +27,11 @@
 <img src="https://img.shields.io/badge/JavaScript-0b0f18?style=flat-square&logo=javascript&logoColor=e8edf7" alt="JavaScript" />
 <img src="https://img.shields.io/badge/Git-0b0f18?style=flat-square&logo=git&logoColor=e8edf7" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub-0b0f18?style=flat-square&logo=github&logoColor=e8edf7" alt="GitHub" />
-<img src="https://img.shields.io/badge/Vercel-0b0f18?style=flat-square&logo=vercel&logoColor=e8edf7" alt="Vercel" />
+<img src="https://img.shields.io/badge/GitHub_Pages-0b0f18?style=flat-square&logo=githubpages&logoColor=e8edf7" alt="GitHub Pages" />
 
 <br/><br/>
 
-<sub><a href="#01--reader">READER</a> &nbsp;·&nbsp; <a href="#02--current-scenario">SCENARIO</a> &nbsp;·&nbsp; <a href="#03--stack">STACK</a> &nbsp;·&nbsp; <a href="#04--protocol">PROTOCOL</a> &nbsp;·&nbsp; <a href="#05--constellation-trail">CONSTELLATION</a> &nbsp;·&nbsp; <a href="#06--archive">ARCHIVE</a></sub>
+<sub><a href="#01--reader">READER</a> &nbsp;·&nbsp; <a href="#02--current-scenario">SCENARIO</a> &nbsp;·&nbsp; <a href="#03--stack">STACK</a> &nbsp;·&nbsp; <a href="#04--protocol">PROTOCOL</a> &nbsp;·&nbsp; <a href="#05--current-build">BUILD</a> &nbsp;·&nbsp; <a href="#06--constellation-trail">CONSTELLATION</a> &nbsp;·&nbsp; <a href="#07--archive">ARCHIVE</a></sub>
 
 </div>
 
@@ -104,8 +104,8 @@ trace decisions · preserve useful history
 
 **Shipping**
 
-`Vercel`  
-move work from local to live
+`GitHub Pages` · `Actions`  
+turn work into something people can visit
 
 </td>
 <td width="33%" valign="top">
@@ -133,7 +133,21 @@ after the foundations are strong
 
 <br/>
 
-## `05 / constellation trail`
+## `05 / current build`
+
+### Scenario
+
+A local-first productivity app for turning goals into focused, trackable scenarios.
+
+`HTML` · `CSS` · `JavaScript` · `localStorage` · `GitHub Actions`
+
+[**open app ↗**](https://khademadib.github.io/scenario/) &nbsp;&nbsp; [**source ↗**](https://github.com/khademadib/scenario)
+
+<sub>create · prioritize · search · filter · complete · persist locally</sub>
+
+<br/>
+
+## `06 / constellation trail`
 
 <sub>Every contribution leaves a trace.</sub>
 
@@ -147,7 +161,7 @@ after the foundations are strong
 
 <br/>
 
-## `06 / archive`
+## `07 / archive`
 
 <details>
 <summary><code>open archive manifest</code></summary>
