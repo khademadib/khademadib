@@ -8,7 +8,11 @@
 
 <br/>
 
-<img src="./assets/reader-sigil.svg" width="104" alt="KDJ reader sigil" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/reader-sigil.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/reader-sigil-light.svg" />
+  <img src="./assets/reader-sigil.svg" width="104" alt="KDJ reader sigil" />
+</picture>
 
 # KDJ
 
@@ -50,7 +54,11 @@ The goal is simple: build interfaces that are clear enough to understand, delibe
 
 ## `02 / current scenario`
 
-<img src="./assets/system-panel.svg" width="100%" alt="Current scenario — JavaScript fundamentals, responsive interfaces, Git, deployment and shipping" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-panel.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/system-panel-light.svg" />
+  <img src="./assets/system-panel.svg" width="100%" alt="Current scenario — JavaScript fundamentals, responsive interfaces, Git, deployment and shipping" />
+</picture>
 
 <br/>
 
@@ -164,6 +172,10 @@ STATE       the next page is unwritten
 
 <br/><br/>
 
-<img src="./assets/archive-footer.svg" width="100%" alt="End of current scenario — archive remains open" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/archive-footer.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/archive-footer-light.svg" />
+  <img src="./assets/archive-footer.svg" width="100%" alt="End of current scenario — archive remains open" />
+</picture>
 
 </div>
