@@ -3,16 +3,18 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/orv-header.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./assets/orv-header-light.svg" />
-  <img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive — a subway-window interface with constellations" />
+  <img src="./assets/orv-header.svg" width="100%" alt="KDJ reader archive — subway windows, constellations, and a reader interface" />
 </picture>
 
 <br/>
 
+<img src="./assets/reader-sigil.svg" width="104" alt="KDJ reader sigil" />
+
 # KDJ
 
-`frontend learner` · `interface builder` · `reader`
+`reader` · `student developer` · `interface builder`
 
-<sub>turning small ideas into clean, intentional web experiences.</sub>
+<sub>I read systems until I understand them. Then I build.</sub>
 
 <br/>
 
@@ -23,30 +25,36 @@
 <img src="https://img.shields.io/badge/GitHub-0b0f18?style=flat-square&logo=github&logoColor=e8edf7" alt="GitHub" />
 <img src="https://img.shields.io/badge/Vercel-0b0f18?style=flat-square&logo=vercel&logoColor=e8edf7" alt="Vercel" />
 
+<br/><br/>
+
+<sub><a href="#01--reader">READER</a> &nbsp;·&nbsp; <a href="#02--current-scenario">SCENARIO</a> &nbsp;·&nbsp; <a href="#03--stack">STACK</a> &nbsp;·&nbsp; <a href="#04--protocol">PROTOCOL</a> &nbsp;·&nbsp; <a href="#05--constellation-trail">CONSTELLATION</a> &nbsp;·&nbsp; <a href="#06--archive">ARCHIVE</a></sub>
+
 </div>
 
 <br/>
 
-### `// reader`
+## `01 / reader`
 
 ```text
 IDENTITY    KDJ
 MODE        observe → understand → build → iterate
-FOCUS       frontend · interface design · useful web experiences
-STATUS      learning in public
+FOCUS       frontend · interfaces · useful web experiences
+STATUS      in progress
 ```
 
-I learn by **building things**. I care about interfaces that feel deliberate: clear hierarchy, responsive layouts, useful interactions, and details that make a project feel finished instead of merely functional.
+I learn by making things real. I’m interested in the point where **code, structure, and visual design** stop feeling like separate pieces and begin working as one system.
 
-I’m still early in the story, which is exactly why the archive stays honest: no inflated skill list, no fake mastery, no noise for the sake of looking busy.
-
-<br/>
-
-<img src="./assets/system-panel.svg" width="100%" alt="Current scenario: JavaScript fundamentals, responsive interfaces, Git, deployment and shipping" />
+The goal is simple: build interfaces that are clear enough to understand, deliberate enough to remember, and useful enough to deserve existing.
 
 <br/>
 
-### `// stack`
+## `02 / current scenario`
+
+<img src="./assets/system-panel.svg" width="100%" alt="Current scenario — JavaScript fundamentals, responsive interfaces, Git, deployment and shipping" />
+
+<br/>
+
+## `03 / stack`
 
 <table>
 <tr>
@@ -81,7 +89,7 @@ interaction · state · browser logic
 **Versioning**
 
 `Git` · `GitHub`  
-change deliberately · keep history useful
+trace decisions · preserve useful history
 
 </td>
 <td width="33%" valign="top">
@@ -89,15 +97,15 @@ change deliberately · keep history useful
 **Shipping**
 
 `Vercel`  
-turn local work into something people can visit
+move work from local to live
 
 </td>
 <td width="33%" valign="top">
 
-**Direction**
+**Next**
 
 `Next.js`  
-next stop after the fundamentals are strong
+after the foundations are strong
 
 </td>
 </tr>
@@ -105,19 +113,19 @@ next stop after the fundamentals are strong
 
 <br/>
 
-### `// protocol`
+## `04 / protocol`
 
 <table>
 <tr>
-<td width="33%" align="center"><b>01 · clarity</b><br/><sub>Every element should have a reason to exist.</sub></td>
-<td width="33%" align="center"><b>02 · curiosity</b><br/><sub>Understand the system instead of memorizing the surface.</sub></td>
-<td width="33%" align="center"><b>03 · completion</b><br/><sub>A finished small project beats an abandoned perfect idea.</sub></td>
+<td width="33%" align="center"><b>01 · clarity</b><br/><sub>Every element earns its place.</sub></td>
+<td width="33%" align="center"><b>02 · curiosity</b><br/><sub>Understand the system beneath the surface.</sub></td>
+<td width="33%" align="center"><b>03 · completion</b><br/><sub>Ship, learn, refine, repeat.</sub></td>
 </tr>
 </table>
 
 <br/>
 
-### `// constellation_trail`
+## `05 / constellation trail`
 
 <sub>Every contribution leaves a trace.</sub>
 
@@ -131,12 +139,31 @@ next stop after the fundamentals are strong
 
 <br/>
 
-### `// archive_note`
+## `06 / archive`
+
+<details>
+<summary><code>open archive manifest</code></summary>
+
+<br/>
 
 ```text
-Read carefully.
-Build deliberately.
-Leave the next page better than the last.
+ARCHIVE     KDJ / 0001
+OBJECTIVE   learn deeply · build deliberately · finish what matters
+DIRECTION   stronger fundamentals → better systems → better work
+STATE       the next page is unwritten
 ```
 
+</details>
+
+<br/>
+
+<div align="center">
+
+**Read carefully. Build deliberately.**  
+<sub>Leave the next page better than the last.</sub>
+
+<br/><br/>
+
 <img src="./assets/archive-footer.svg" width="100%" alt="End of current scenario — archive remains open" />
+
+</div>
