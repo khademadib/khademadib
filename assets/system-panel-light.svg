@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-labelledby="title desc">
+  <title id="title">Current scenario system panel light</title><desc id="desc">A minimal light interface panel listing active learning objectives.</desc>
+  <defs><linearGradient id="panel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbfcfe"/><stop offset="1" stop-color="#f1f4f8"/></linearGradient><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8da0bb" stop-opacity="0"/><stop offset="0.2" stop-color="#8da0bb" stop-opacity="0.6"/><stop offset="0.8" stop-color="#8da0bb" stop-opacity="0.6"/><stop offset="1" stop-color="#8da0bb" stop-opacity="0"/></linearGradient></defs>
+  <rect x="1" y="1" width="1198" height="248" rx="18" fill="url(#panel)" stroke="#d3dbe6"/><rect x="19" y="19" width="1162" height="212" rx="12" fill="none" stroke="#e5eaf1"/>
+  <text x="55" y="54" fill="#526b8d" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" letter-spacing="3">[ CURRENT SCENARIO ]</text>
+  <text x="1145" y="54" text-anchor="end" fill="#8390a4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" letter-spacing="2">STATE / IN PROGRESS</text><rect x="55" y="70" width="1090" height="1" fill="url(#line)"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <text x="72" y="110" fill="#8794a7" font-size="10" letter-spacing="2">01</text><text x="118" y="110" fill="#28384f" font-size="15" letter-spacing="1">JAVASCRIPT FUNDAMENTALS</text><text x="1128" y="110" text-anchor="end" fill="#5878a5" font-size="10" letter-spacing="2">ACTIVE</text>
+    <text x="72" y="147" fill="#8794a7" font-size="10" letter-spacing="2">02</text><text x="118" y="147" fill="#40526d" font-size="15" letter-spacing="1">RESPONSIVE INTERFACES</text><text x="1128" y="147" text-anchor="end" fill="#6f82a0" font-size="10" letter-spacing="2">BUILDING</text>
+    <text x="72" y="184" fill="#8794a7" font-size="10" letter-spacing="2">03</text><text x="118" y="184" fill="#55657d" font-size="15" letter-spacing="1">GIT · DEPLOYMENT · SHIPPING</text><text x="1128" y="184" text-anchor="end" fill="#7b889a" font-size="10" letter-spacing="2">LEARNING</text>
+  </g>
+  <g fill="#6f82a4"><circle cx="56" cy="108" r="2"/><circle cx="56" cy="145" r="2"/><circle cx="56" cy="182" r="2"/></g>
+  <text x="600" y="221" text-anchor="middle" fill="#8b97a8" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" letter-spacing="3">THE STORY MOVES WHEN SOMETHING GETS BUILT</text>
+</svg>
