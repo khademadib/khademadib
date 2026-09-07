@@ -1,0 +1,37 @@
+name: constellation trail
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate contribution trail
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contribution-grid.svg?color_snake=%2354637e&color_dots=%23f6f8fa,%23d9e2f0,%23aebed6,%237f96b8,%234d688f
+            dist/contribution-grid-dark.svg?palette=github-dark&color_snake=%23eef4ff&color_dots=%230d1117,%23131c2b,%2322334d,%23415e85,%2383a6d3
+
+      - name: Publish generated artwork
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b output
+          git add .
+          git commit -m "chore: update constellation trail"
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push --force origin output
