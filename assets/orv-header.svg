@@ -1,62 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">KDJ reader archive banner</title>
-  <desc id="desc">A dark subway-window inspired banner with stars, constellations, and a minimal reader motif.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">KDJ reader archive</title>
+  <desc id="desc">A cinematic dark subway-window banner with constellation lines, system labels, and a minimal reader glyph.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#05070d"/>
-      <stop offset="0.52" stop-color="#0a1020"/>
-      <stop offset="1" stop-color="#111827"/>
+      <stop offset="0" stop-color="#03050a"/>
+      <stop offset="0.46" stop-color="#080d18"/>
+      <stop offset="1" stop-color="#0d1422"/>
     </linearGradient>
-    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
-      <stop offset="0" stop-color="#8ca7d7" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#8ca7d7" stop-opacity="0"/>
+    <radialGradient id="halo" cx="50%" cy="43%" r="46%">
+      <stop offset="0" stop-color="#b7c8e8" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#6c82ad" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#6c82ad" stop-opacity="0"/>
     </radialGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#151e31" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#080c15" stop-opacity="0.08"/>
+    </linearGradient>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <pattern id="grain" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.45" fill="#ffffff" opacity="0.035"/>
+      <circle cx="5" cy="4" r="0.35" fill="#ffffff" opacity="0.025"/>
+    </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="24" fill="url(#glow)"/>
+  <rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="26" fill="url(#halo)"/>
+  <ellipse cx="600" cy="191" rx="235" ry="95" fill="#8ca4cf" opacity="0.035" filter="url(#soft)"/>
+  <rect width="1200" height="420" rx="26" fill="url(#grain)"/>
 
-  <!-- subway frame -->
-  <path d="M80 46 H1120 Q1140 46 1140 66 V294 Q1140 314 1120 314 H80 Q60 314 60 294 V66 Q60 46 80 46Z" fill="none" stroke="#53627f" stroke-width="2" opacity="0.55"/>
-  <path d="M102 74 H1098 Q1112 74 1112 88 V272 Q1112 286 1098 286 H102 Q88 286 88 272 V88 Q88 74 102 74Z" fill="none" stroke="#24324a" stroke-width="2"/>
-  <line x1="600" y1="75" x2="600" y2="286" stroke="#28364f" stroke-width="2" opacity="0.75"/>
+  <!-- outer carriage frame -->
+  <rect x="44" y="38" width="1112" height="344" rx="22" fill="none" stroke="#52617b" stroke-width="1.5" opacity="0.48"/>
+  <rect x="69" y="62" width="1062" height="296" rx="15" fill="url(#glass)" stroke="#233047" stroke-width="1.5"/>
+  <line x1="600" y1="63" x2="600" y2="357" stroke="#2c3950" stroke-width="1.4" opacity="0.8"/>
+  <line x1="83" y1="210" x2="1117" y2="210" stroke="#1a2538" stroke-width="1" opacity="0.23"/>
 
-  <!-- stars -->
-  <g fill="#dbe7ff" opacity="0.85">
-    <circle cx="168" cy="112" r="2.1"/><circle cx="219" cy="155" r="1.3"/><circle cx="276" cy="101" r="1.8"/>
-    <circle cx="326" cy="176" r="1.2"/><circle cx="390" cy="126" r="2"/><circle cx="458" cy="95" r="1.2"/>
-    <circle cx="745" cy="110" r="1.7"/><circle cx="806" cy="153" r="1.2"/><circle cx="865" cy="98" r="2.1"/>
-    <circle cx="923" cy="184" r="1.2"/><circle cx="986" cy="127" r="1.8"/><circle cx="1039" cy="91" r="1.2"/>
-    <circle cx="150" cy="236" r="1.3"/><circle cx="273" cy="247" r="1.8"/><circle cx="440" cy="230" r="1.2"/>
-    <circle cx="758" cy="237" r="1.2"/><circle cx="903" cy="246" r="1.8"/><circle cx="1045" cy="221" r="1.2"/>
+  <!-- window reflections -->
+  <path d="M102 76 L420 76 L280 344 L102 344Z" fill="#d7e3fa" opacity="0.012"/>
+  <path d="M1098 76 L780 76 L920 344 L1098 344Z" fill="#d7e3fa" opacity="0.01"/>
+
+  <!-- constellations -->
+  <g stroke="#8da2c8" stroke-width="1" fill="none" opacity="0.28">
+    <path d="M132 122 L192 150 L256 104 L326 166 L405 116"/>
+    <path d="M794 120 L858 165 L926 107 L988 154 L1065 116"/>
+    <path d="M156 286 L222 254 L300 294 L368 248" opacity="0.55"/>
+    <path d="M832 275 L902 241 L974 288 L1048 250" opacity="0.55"/>
   </g>
 
-  <!-- constellation lines -->
-  <g stroke="#8298c0" stroke-width="1" opacity="0.28" fill="none">
-    <path d="M168 112 L219 155 L276 101 L326 176 L390 126"/>
-    <path d="M806 153 L865 98 L923 184 L986 127 L1039 91"/>
+  <g fill="#d9e5fa">
+    <circle cx="132" cy="122" r="2.3" opacity="0.92"><animate attributeName="opacity" values="0.35;1;0.35" dur="4.8s" repeatCount="indefinite"/></circle>
+    <circle cx="192" cy="150" r="1.35" opacity="0.65"/>
+    <circle cx="256" cy="104" r="1.9" opacity="0.85"/>
+    <circle cx="326" cy="166" r="1.25" opacity="0.62"/>
+    <circle cx="405" cy="116" r="2.05" opacity="0.88"><animate attributeName="opacity" values="1;0.4;1" dur="5.6s" repeatCount="indefinite"/></circle>
+    <circle cx="794" cy="120" r="1.7" opacity="0.7"/>
+    <circle cx="858" cy="165" r="1.25" opacity="0.56"/>
+    <circle cx="926" cy="107" r="2.15" opacity="0.9"><animate attributeName="opacity" values="0.4;1;0.4" dur="6.2s" repeatCount="indefinite"/></circle>
+    <circle cx="988" cy="154" r="1.4" opacity="0.66"/>
+    <circle cx="1065" cy="116" r="1.9" opacity="0.82"/>
+    <circle cx="156" cy="286" r="1.2" opacity="0.55"/><circle cx="222" cy="254" r="1.4" opacity="0.62"/><circle cx="300" cy="294" r="1.2" opacity="0.54"/><circle cx="368" cy="248" r="1.5" opacity="0.65"/>
+    <circle cx="832" cy="275" r="1.25" opacity="0.54"/><circle cx="902" cy="241" r="1.5" opacity="0.65"/><circle cx="974" cy="288" r="1.2" opacity="0.54"/><circle cx="1048" cy="250" r="1.4" opacity="0.62"/>
   </g>
 
-  <!-- central reader glyph -->
-  <g transform="translate(600 113)" stroke="#e7edf9" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)">
-    <path d="M-44 44 Q-19 34 0 51 Q19 34 44 44 V103 Q20 93 0 108 Q-20 93 -44 103 Z" stroke-width="2.2" opacity="0.92"/>
-    <path d="M0 51 V108" stroke-width="1.7" opacity="0.8"/>
-    <path d="M-31 56 Q-15 51 -6 58" stroke-width="1.2" opacity="0.45"/>
-    <path d="M31 56 Q15 51 6 58" stroke-width="1.2" opacity="0.45"/>
+  <!-- system corners -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" letter-spacing="2">
+    <text x="98" y="98" fill="#8192b0" font-size="10">[ MAIN SCENARIO ]</text>
+    <text x="98" y="116" fill="#4e5f7c" font-size="8">STATUS / ACTIVE</text>
+    <text x="1102" y="98" text-anchor="end" fill="#8192b0" font-size="10">[ CONSTELLATION LINK ]</text>
+    <text x="1102" y="116" text-anchor="end" fill="#4e5f7c" font-size="8">SIGNAL / STABLE</text>
   </g>
 
-  <!-- title -->
-  <text x="600" y="104" text-anchor="middle" fill="#f4f7fb" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="700" letter-spacing="8">KDJ</text>
-  <text x="600" y="254" text-anchor="middle" fill="#b7c3d8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" letter-spacing="4">READER · OBSERVER · BUILDER</text>
-  <text x="600" y="278" text-anchor="middle" fill="#65728a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="3">THE READER'S ARCHIVE</text>
+  <!-- reader glyph -->
+  <g transform="translate(600 151)" stroke="#edf3ff" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M-41 37 Q-20 29 0 45 Q20 29 41 37 V88 Q20 80 0 94 Q-20 80 -41 88 Z" stroke-width="1.8" opacity="0.92"/>
+    <path d="M0 45 V94" stroke-width="1.25" opacity="0.7"/>
+    <path d="M-29 48 Q-15 44 -7 50" stroke-width="1" opacity="0.35"/>
+    <path d="M29 48 Q15 44 7 50" stroke-width="1" opacity="0.35"/>
+  </g>
 
-  <!-- tiny system marks -->
-  <g fill="#6d7e9d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" opacity="0.65">
-    <text x="108" y="99">SCENARIO 01</text>
-    <text x="973" y="267">김독자</text>
+  <!-- identity -->
+  <text x="600" y="145" text-anchor="middle" fill="#f4f7fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="44" font-weight="700" letter-spacing="13">KDJ</text>
+  <text x="600" y="286" text-anchor="middle" fill="#c0cbe0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="5">READ  /  OBSERVE  /  BUILD</text>
+  <text x="600" y="313" text-anchor="middle" fill="#65728a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9" letter-spacing="4">THE READER'S ARCHIVE</text>
+
+  <!-- bottom rail -->
+  <g stroke="#35445f" opacity="0.5">
+    <line x1="98" y1="333" x2="474" y2="333"/><line x1="726" y1="333" x2="1102" y2="333"/>
+  </g>
+  <g fill="#6e809f" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="8" letter-spacing="2">
+    <text x="98" y="350">ARCHIVE / 0001</text>
+    <text x="1102" y="350" text-anchor="end">독자 / READER</text>
   </g>
 </svg>
